@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.Junit5Test
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 3, Errors: 1, Skipped: 2, Time elapsed: 0.535 s <<< FAILURE! - in com.example.demo.Junit5Test
+testException  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 业务逻辑居然正常运行？ ==> Expected java.lang.ArithmeticException to be thrown, but nothing was thrown.
+	at com.example.demo.Junit5Test.testException(Junit5Test.java:81)
+
+testTimeout  Time elapsed: 0.47 s  <<< ERROR!
+java.util.concurrent.TimeoutException: testTimeout() timed out after 500 milliseconds
+
+all  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+test (1 failure)
+	org.opentest4j.AssertionFailedError: 结果不是1 ==> expected: <1> but was: <2>
+	at com.example.demo.Junit5Test.all(Junit5Test.java:69)
+
+testSimpleAssertions  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 业务逻辑计算失败 ==> expected: <6> but was: <5>
+	at com.example.demo.Junit5Test.testSimpleAssertions(Junit5Test.java:50)
+

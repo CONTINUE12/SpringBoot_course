@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.atguigu.Boot05AdminserviceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.082 s - in com.atguigu.Boot05AdminserviceApplicationTests
